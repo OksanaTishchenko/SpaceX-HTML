@@ -10,3 +10,4 @@ var rellax = new Rellax('.rocket');
 if (document.body.clientWidth < 576) {
   rellax.destroy(); // отключаем паралакс, если экран клиента меньше 576 пикселей
 }
+AOS.init();
